@@ -1,6 +1,6 @@
 from keras.models import Sequential
 from keras.layers import Conv2D, Dense, Flatten
-from keras.optimizers import Adam
+from tensorflow.keras.optimizers import Adam
 
 def create_dqn(learn_rate, input_dims, n_actions, conv_units, dense_units):
     model = Sequential([
